@@ -42,7 +42,7 @@ The image of the graph is generated using Java Swing, and an image file of the g
   Saved Image Successfully!
 ```
 #### graph.png
-<img src="https://raw.githubusercontent.com/prakharbhasin/Socket-Programming/main/graph.jpg?token=AOW6ENHCIN7P5ZP5AW5JB43BAZ4KC" width="150px"/>
+<img src="https://raw.githubusercontent.com/prakharbhasin/Socket-Programming/main/graph.jpg?token=AOW6ENHCIN7P5ZP5AW5JB43BAZ4KC" width="500px"/>
 
 
 
