@@ -7,20 +7,20 @@ The Program utilises to TCP Sockets to communicate between a Client, and a Serve
 
 ## Working
 The client sends the server 4 values - 
-- X, which is the adjacency matrix of a directed graph.
-- n which is the length of the path
-- Starting vertex of the path, say B.
-- Ending vertex of the path, say C.
+- **X**, which is the adjacency matrix of a directed graph.
+- **n** which is the length of the path
+- Starting vertex of the path, say **B**.
+- Ending vertex of the path, say **C**.
 
 The server sends back 2 responses - 
 - A response Y or N, depending on the existence of a path of length n between B and C in graph X.
 - The Image of the directed graph X.
 
-The image of the graph is generated using Java Swing, and an image file of the graph is saved as "graph.png" in the same folder as the client and server. 
+The image of the graph is generated using Java Swing, and an image file of the graph is saved as **graph.png** in the same folder as the client and server. 
 
 ## Example
 ### Input (Server)
->  X:
+>  **X**:
 > |   |   |   |   |   |  
 > ---- | ---- | ---- | ---- | ---- | 
 > | 0 | 1 | 0 | 1 | 0 |
@@ -29,11 +29,11 @@ The image of the graph is generated using Java Swing, and an image file of the g
 > | 0 | 0 | 0 | 0 | 0 |
 > | 0 | 0 | 0 | 0 | 0 |
 
-> n: 2
+> **n**: 2
 
-> Source: A
+> **Source**: A
 
-> Destination: E
+> **Destination**: E
 
 ### Output (Client)
 
@@ -42,7 +42,7 @@ The image of the graph is generated using Java Swing, and an image file of the g
   Saved Image Successfully!
 ```
 #### graph.png
-![Result](https://raw.githubusercontent.com/prakharbhasin/Socket-Programming/main/graph.jpg?token=AOW6ENHCIN7P5ZP5AW5JB43BAZ4KC)
+<img src="https://raw.githubusercontent.com/prakharbhasin/Socket-Programming/main/graph.jpg?token=AOW6ENHCIN7P5ZP5AW5JB43BAZ4KC" width="150px"/>
 
 
 
